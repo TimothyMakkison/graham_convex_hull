@@ -11,7 +11,7 @@ The convex hull has many applications in Maths, Statistics, Physics and Computer
 
 ## Graham scan algorithm
 Graham scan algorithm finds the convex hull of a series of points in O(n log(n)) time. It does so by calculating the angle between every point and the lowest point, 
-and then sorting in ascending order.
+and then sorting in ascending order. The sorted algorithms are iterated through with three points at a time being tested for whether they for a clockwise or anti clockwise angle.
 
 ## Pseudocode
 ```
