@@ -1,6 +1,6 @@
 # graham_convex_hull
 
-Implementation of the Graham scan method to find the convex hull in rust.
+Implementation of the Graham scan method to find the convex hull of a series of points in rust.
 
 ## Convex hull
 A convex hull of a shape is defined as the smallest number of points required to enclose the remaining points. 
